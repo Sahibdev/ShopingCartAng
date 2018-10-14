@@ -1,5 +1,6 @@
 .bordercart {
     border: 2px solid black;
+    min-width: 300px;
 }
 
 
@@ -9,7 +10,7 @@ ul {
 
 .bordercartitem {
     border: 1px solid black;
-    max-width: 95%;
+    width: 95%;
 }
 
 .cartpname {
