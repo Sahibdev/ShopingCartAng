@@ -1,0 +1,12 @@
+<h1>Product list</h1>
+<ul *ngFor="let product of products, index as i">
+    <li class="column">
+      <div class="border2">
+      <div class="padding1">{{product.name}}</div>
+      <img class="padding1" src="{{product.image}}">
+      <div class="padding1">{{product.price | currency:"AUD" }}</div>
+      <button id="{{product.id}}" class="padding1" (click)="sendtocart(i)">Add to cart</button>
+      </div>
+    </li>
+  </ul>
+

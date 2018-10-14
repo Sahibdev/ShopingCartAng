@@ -1,0 +1,20 @@
+.bordercart {
+    border: 2px solid black;
+}
+
+
+ul {
+    list-style: none;
+  }
+
+.bordercartitem {
+    border: 1px solid black;
+    max-width: 95%;
+}
+
+.cartpname {
+    margin: 5px;
+}
+.cartbutton {
+    margin: 5px;
+}

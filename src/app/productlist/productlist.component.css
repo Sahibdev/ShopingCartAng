@@ -1,0 +1,23 @@
+.column {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+}
+
+ul {
+    list-style: none;
+  }
+
+.border2 {
+    border: 1px solid black;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    -moz-box-align: center;
+}
+
+.padding1{
+    padding: 10px;
+}
+

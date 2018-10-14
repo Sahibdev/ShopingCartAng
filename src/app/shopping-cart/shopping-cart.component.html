@@ -1,0 +1,16 @@
+<h1>Shopping Cart</h1>
+
+
+<div class="bordercart">
+    <ul *ngFor="let product of products; index as i">
+      <li>
+        <div class="bordercartitem">
+        <table>
+        <tr>
+        <td class="cartpname" width=100%>Product:{{product.name}} </td>
+        <td><button (click)="remove(i)" class="cartbutton" width=20%>Remove</button></td>
+        </tr></table>
+        </div>
+      </li>
+    </ul>
+  </div>
