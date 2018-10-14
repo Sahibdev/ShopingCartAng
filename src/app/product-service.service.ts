@@ -8,11 +8,11 @@ export class ProductServiceService {
   constructor() { }
 
   private allproduct =[
-    {"id":1, "name":"A", "image":"../assets/productImg.png","price":99},
-    {"id":2, "name":"B", "image":"../assets/productImg.png","price":99},
-    {"id":3, "name":"C", "image":"../assets/productImg.png","price":99},
-    {"id":4, "name":"D", "image":"../assets/productImg.png","price":99},
-    {"id":4, "name":"F", "image":"../assets/productImg.png","price":99},
+    {"id":1, "name":"A", "image":"assets/productImg.png","price":99},
+    {"id":2, "name":"B", "image":"assets/productImg.png","price":99},
+    {"id":3, "name":"C", "image":"assets/productImg.png","price":99},
+    {"id":4, "name":"D", "image":"assets/productImg.png","price":99},
+    {"id":4, "name":"F", "image":"assets/productImg.png","price":99},
   ];
 
   private cartproduct = [this.allproduct[1],this.allproduct[2]];
