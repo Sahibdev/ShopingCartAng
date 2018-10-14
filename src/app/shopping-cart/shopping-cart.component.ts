@@ -11,10 +11,12 @@ export class ShoppingCartComponent implements OnInit {
   public products = [];
   constructor(private _productservice:ProductServiceService ) { }
 
+  //get all the products in cart from service
   ngOnInit() {
     this.products = this._productservice.getCartProduct();
   }
 
+  //on button click remove the product
   remove(i){
     this._productservice.removefromcart(i);
   }

@@ -1,16 +1,16 @@
 
-/* Create three unequal columns that floats next to each other */
+/* Create two unequal columns that floats next to each other */
 .column {
     float: left;
     padding: 10px;
 }
 
-/* Left and right column */
+/* Right column */
 .column.right {
     width: 35%;
 }
 
-/* Middle column */
+/* Left column */
 .column.left {
     width: 65%;
 }

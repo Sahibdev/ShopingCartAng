@@ -2,12 +2,14 @@
 
 
 <div class="bordercart">
+    <!--Display products in cart-->
     <ul *ngFor="let product of products; index as i">
       <li>
         <div class="bordercartitem">
         <table>
         <tr>
         <td class="cartpname" width=100%>Product:{{product.name}} </td>
+        <!--on click call remove function-->
         <td><button (click)="remove(i)" class="cartbutton" width=20%>Remove</button></td>
         </tr></table>
         </div>
